@@ -1,0 +1,15 @@
+/Users/krystalmadison/repos/MethodsExercise/MethodsExercise/MethodsExercise/obj/Debug/net6.0/MethodsExercise.csproj.AssemblyReference.cache
+/Users/krystalmadison/repos/MethodsExercise/MethodsExercise/MethodsExercise/obj/Debug/net6.0/MethodsExercise.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krystalmadison/repos/MethodsExercise/MethodsExercise/MethodsExercise/obj/Debug/net6.0/MethodsExercise.AssemblyInfoInputs.cache
+/Users/krystalmadison/repos/MethodsExercise/MethodsExercise/MethodsExercise/obj/Debug/net6.0/MethodsExercise.AssemblyInfo.cs
+/Users/krystalmadison/repos/MethodsExercise/MethodsExercise/MethodsExercise/obj/Debug/net6.0/MethodsExercise.csproj.CoreCompileInputs.cache
+/Users/krystalmadison/repos/MethodsExercise/MethodsExercise/MethodsExercise/bin/Debug/net6.0/MethodsExercise
+/Users/krystalmadison/repos/MethodsExercise/MethodsExercise/MethodsExercise/bin/Debug/net6.0/MethodsExercise.deps.json
+/Users/krystalmadison/repos/MethodsExercise/MethodsExercise/MethodsExercise/bin/Debug/net6.0/MethodsExercise.runtimeconfig.json
+/Users/krystalmadison/repos/MethodsExercise/MethodsExercise/MethodsExercise/bin/Debug/net6.0/MethodsExercise.dll
+/Users/krystalmadison/repos/MethodsExercise/MethodsExercise/MethodsExercise/bin/Debug/net6.0/MethodsExercise.pdb
+/Users/krystalmadison/repos/MethodsExercise/MethodsExercise/MethodsExercise/obj/Debug/net6.0/MethodsExercise.dll
+/Users/krystalmadison/repos/MethodsExercise/MethodsExercise/MethodsExercise/obj/Debug/net6.0/refint/MethodsExercise.dll
+/Users/krystalmadison/repos/MethodsExercise/MethodsExercise/MethodsExercise/obj/Debug/net6.0/MethodsExercise.pdb
+/Users/krystalmadison/repos/MethodsExercise/MethodsExercise/MethodsExercise/obj/Debug/net6.0/MethodsExercise.genruntimeconfig.cache
+/Users/krystalmadison/repos/MethodsExercise/MethodsExercise/MethodsExercise/obj/Debug/net6.0/ref/MethodsExercise.dll
