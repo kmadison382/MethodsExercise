@@ -2,9 +2,49 @@
 {
     public class Program
     {
+        public static int Add(params int[] numbers)
+        {
+            int sum = 0;
+            foreach (int number in numbers)
+            {
+                sum += number;
+            }
+            return sum;
+        }
+        public static int Subtract(int x, int y)
+        {
+            return x - y;
+        }
+        public static int Multiply(int x, int y)
+        {
+            return x * y;
+        }
+        public static int Divide(int x, int y)
+        {
+            return x / y;
+        }
+        public static int Modulus(int x, int y)
+        {
+            return x % y;
+        }
+
         static void Main(string[] args)
         {
-            Console.WriteLine("What is your name?");
+            Console.WriteLine("I will show you some numbers!");
+
+            int added = Add(1, 3, 5, 7, 9);
+            int sub = Subtract(6, 2);
+            int mult = Multiply(8, 11);
+            int div = Divide(12, 3);
+            int mod = Modulus(14, 3);
+
+            Console.WriteLine($"1 + 3 + 5 + 7 + 9 = {added}");
+            Console.WriteLine($"6 - 2 = {sub}");
+            Console.WriteLine($"8 * 11 = {mult}");
+            Console.WriteLine($"14 / 3 = {div}");
+            Console.WriteLine($"14 % 3 = {mod}");
+
+            Console.WriteLine("Now, what is your name?");
 
             var name = Console.ReadLine();
 
