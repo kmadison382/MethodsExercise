@@ -30,21 +30,24 @@
 
         static void Main(string[] args)
         {
-            Console.WriteLine("I will show you some numbers!");
+            Console.WriteLine("First, let's do some math.");
+            Console.WriteLine("Please enter a number.");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("One more, a smaller number please");
+            int y = Convert.ToInt32(Console.ReadLine());
 
-            int added = Add(1, 3, 5, 7, 9);
-            int sub = Subtract(6, 2);
-            int mult = Multiply(8, 11);
-            int div = Divide(12, 3);
-            int mod = Modulus(14, 3);
+            int added = Add(x,y);
+            Console.WriteLine($"{x} + {y} = {added}");
+            int sub = Subtract(x,y);
+            Console.WriteLine($"{x} - {y} = {sub}");
+            int mult = Multiply(x,y);
+            Console.WriteLine($"{x} * {y} = {mult}");
+            int div = Divide(x,y);
+            Console.WriteLine($"{x} / {y} = {div}");
+            int mod = Modulus(x,y);
+            Console.WriteLine($"{x} % {y} = {mod}");
 
-            Console.WriteLine($"1 + 3 + 5 + 7 + 9 = {added}");
-            Console.WriteLine($"6 - 2 = {sub}");
-            Console.WriteLine($"8 * 11 = {mult}");
-            Console.WriteLine($"14 / 3 = {div}");
-            Console.WriteLine($"14 % 3 = {mod}");
-
-            Console.WriteLine("Now, what is your name?");
+            Console.WriteLine("Now, let's do something fun! What is your name?");
 
             var name = Console.ReadLine();
 
@@ -64,7 +67,7 @@
 
             var book = Console.ReadLine();
 
-            Console.WriteLine("Amazing! I've written a story about you.\n" +
+            Console.WriteLine("Excellent! I've written a story about you.\n" +
                 $"Once there was a human named {name}. {name} loved eating {color} {food}.\n" +
                 $"But one unusually cold {season} day, {name} couldn't find any {food}!\n" +
                 $"{name} also couldn't find any {color} food at all! So {name} wandered around downtown.\n" +
